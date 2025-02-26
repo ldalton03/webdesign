@@ -1,0 +1,61 @@
+/* External stylesheet*/
+nav {
+    background-color: #000000;
+    padding: 5px;
+}
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li {
+    list-style: none ;
+    background-color: #b2b2b2;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+nav ul li a { color: white;
+    text-decoration: none;
+
+
+
+}
+nav ul li:hover {
+    background-color: rgb(112 ,27, 186)
+}
+header {
+    background-color: #b2b2b2;
+    padding : 10px;
+}
+footer {
+    padding: 0;
+    margin: 0;
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+}
+
+body{
+    font-family: verdana;
+    margin: 0;
+    
+}
+main {
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+
+.product {
+    text-align: center;
+    border: 5px solid black;
+    margin: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
